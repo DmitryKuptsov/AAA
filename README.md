@@ -2,7 +2,7 @@
 
 1) issue_01.py
 Запускать следует командой:
-python -m doctest -o NORMALIZE_WHITESPACE issue_01.py
+python -m doctest -o NORMALIZE_WHITESPACE -v issue_01.py
 
 2) issue_02.py
 Запускать следует командой:
