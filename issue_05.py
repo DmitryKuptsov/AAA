@@ -32,6 +32,6 @@ def test_error():
     '''
     with patch('what_year_is_now.urllib.request.urlopen',
                return_value=StringIO(
-            initial_value='{"currentDateTime":"who?"}')):
-        with pytest.raises(IndexError):
+            initial_value='{"currentDateTime":"2019.00.00"}')):
+        with pytest.raises(ValueError):
             what_is_year_now()

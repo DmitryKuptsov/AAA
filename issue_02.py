@@ -1,5 +1,3 @@
-"""Morse Code Translator"""
-
 import pytest
 from morse import decode
 
