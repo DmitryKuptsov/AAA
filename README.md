@@ -2,7 +2,7 @@
 
 1) issue_01.py
 Запускать следует командой:
-python -m doctest -o NORMALIZE_WHITESPACE issue_01.py
+python -m doctest -o NORMALIZE_WHITESPACE -v issue_01.py
 
 2) issue_02.py
 Запускать следует командой:
@@ -17,5 +17,13 @@ python -m unittest issue_03.py
 python -m pytest issue_04.py
 
 5) issue_05.py
+
 Запускать следует командой:
-python -m pytest issue_05.py
+coverage run -m pytest issue_05.py
+
+Чтобы получить репорт в консоль:
+coverage report -m
+
+Чтобы получить html репорт:
+coverage html
+
