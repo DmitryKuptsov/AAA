@@ -1,5 +1,6 @@
 import pytest
 from one_hot_encoder import fit_transform
+from pprint import pprint
 
 
 def test_cities():
@@ -52,8 +53,6 @@ def test_exception():
 
 
 if __name__ == '__main__':
-    from pprint import pprint
-
     cities = ['Moscow', 'New York', 'Moscow', 'London']
     exp_transformed_cities = [
         ('Moscow', [0, 0, 1]),
