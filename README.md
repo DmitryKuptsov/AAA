@@ -17,9 +17,12 @@ python -m unittest issue_03.py
 python -m pytest issue_04.py
 
 5) issue_05.py
+
 Запускать следует командой:
 coverage run -m pytest issue_05.py
+
 Чтобы получить репорт в консоль:
 coverage report -m
+
 Чтобы получить html репорт:
 coverage html
